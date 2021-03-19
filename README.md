@@ -1,2 +1,2 @@
 # HeartbeatOne
-A MySql  master-salve replication lag time checker more like pt-heartbeat.
+A MySql master-salve replication lag time checker implementation by PHP more like pt-heartbeat.
