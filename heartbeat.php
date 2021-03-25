@@ -4,7 +4,6 @@
  * 
  * @author Jimmy 278636108@qq.com
  * 
- * @todo mysqlPing 重连
  *
  */
 
