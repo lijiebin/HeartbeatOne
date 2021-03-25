@@ -36,7 +36,7 @@ return [
 
     'interval' => 1, // Frequency for update monitor time in seconds
 
-    'averages' => [1, 5, 30], // Latest period slave lagging average time in seconds
+    'averages' => [1, 5, 30], // Latest period slave lagging average time in seconds, can be more than three and even more, su as [1, 5, 30, 60 ...]
 
     'logFilePath' => '/val/logs/',
 
