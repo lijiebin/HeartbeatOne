@@ -50,7 +50,7 @@ return [
 Import `heartbeat.sql` to your MySQl master server which you want tracing.
 
 ### Running
-Just run following command in cli, you can see output data report if everything is ok.
+Just run following command in cli, you can see output data report and wirte to log in the meanwhile if everything is ok.
 ```shell
 php heartbeat.php
 ```
