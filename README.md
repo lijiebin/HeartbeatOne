@@ -22,7 +22,7 @@ Change the `setting.php` according to your actual situation.
  */
 
 return [
-    'mysqlMasterHost' => '',
+    'mysqlMasterHost' => '', // Write server host
 
     'mysqlMasterUser' => '',
 
@@ -30,7 +30,7 @@ return [
 
     'mysqlSlaveHosts' => [], // Slaves host of the master
 
-    'mysqlSlaveUser' => '',
+    'mysqlSlaveUser' => '', // Read server username
 
     'mysqlSlavePwd' => '',
 
@@ -42,7 +42,7 @@ return [
 
     'logFileName' => 'HeartbeatOne-Monitor',
 
-    'mysqlDriver' => 'mysqli',
+    'mysqlDriver' => 'mysqli', // Only support `mysqlli` or `PDO` driver
 ];
 
 ```
@@ -58,6 +58,8 @@ For the production suggest run in background.
 ```shell
 nohup php heartbeat.php > /dev/null &
 ```
+## Details
+- Notice! The monitor log file will be clear every 24hours
 
 
 
