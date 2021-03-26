@@ -59,7 +59,7 @@ For the production suggest run in background.
 nohup php heartbeat.php > /dev/null &
 ```
 ## Details
-- Notice! The monitor log file will be clear every 24hours
+- Notice! The monitor log content will be clear every 24hours
 
 
 
