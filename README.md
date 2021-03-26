@@ -54,7 +54,7 @@ Just run following command in cli, you can see dealy time report and wirte to lo
 ```shell
 php heartbeat.php
 ```
-For the production suggest run in background.
+For the production suggest run in background then only wirte to delay data to log file.
 ```shell
 nohup php heartbeat.php > /dev/null &
 ```
