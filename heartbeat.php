@@ -65,11 +65,6 @@ class HeartbeatOne
         }
     }
     
-    public function show()
-    {
-        
-    }
-    
     private  function _initSetting()
     {
         $settings = include_once('setting.php');
@@ -139,7 +134,8 @@ class HeartbeatOne
             
             $avgValues = implode(', ', $this->samplesAvgs);
             
-            $logOut = "Slave {$slaveHost}; Delay(seconds): {$laggingTime} ($avgValues)";
+            $now = date('Y-m-d H:i:s');
+            $logOut = "{$now}; Slave {$slaveHost}; Delay(seconds): {$laggingTime} ($avgValues)";
             
             $this->_outputLogFile($logOut);
             
