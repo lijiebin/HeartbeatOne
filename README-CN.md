@@ -49,7 +49,7 @@ return [
 
 ```
 ### 创建监控数据表
-Import `heartbeat.sql` to your MySQl master server which you want tracing.
+导入 `heartbeat.sql` 至待监控的 MySQl 主（写）库。
 
 ### 执行
 
