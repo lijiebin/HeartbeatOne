@@ -1,3 +1,5 @@
+[简体中文](./README-CN.md)
+
 # HeartbeatOne
 A MySql master-salve replication lag time checker tool implementation by PHP more like pt-heartbeat.
 
